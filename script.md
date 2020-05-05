@@ -54,7 +54,7 @@ computation state
 
 ## 4 core idea
 
-TensorFlow model represents
+TensorFlow model represents 具体的很多流程都可以简化成一个有向图
 
 individual mathematical operators (such as matrix multiplication,
 
