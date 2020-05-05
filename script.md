@@ -64,9 +64,25 @@ graph. This approach makes it easier for users to compose
 
 novel layers using a high-level scripting interface.
 
+Tensors represent the inputs to and results of common operations such as matrix multiplication
 
+Operations take tensors as input and produce tensors as output. They can have mutable state that
 
+is read and/or written each time it is executed (advantages to this to be discussed)
 
+Departing from traditional dataflow systems where graph vertices represent
+
+functional computation on immutable data,
+
+○ the TensorFlow graph vertices may have mutable state that can be shared between different
+
+executions of the graph
+
+using the graph’s
+
+dependency structure to issue a sequence of kernels to the
+
+GPU without waiting for intermediate results.
 
 
 
