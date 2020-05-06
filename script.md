@@ -46,7 +46,7 @@ computation state
 
 
 
-
+https://github.blog/2019-01-24-the-state-of-the-octoverse-machine-learning/
 
 
 
@@ -90,7 +90,7 @@ GPU without waiting for intermediate results.
 
 
 
-
+here I also remcommand jupyter notebook, a web application that allows you to create and share documents and codes for many languages, not only Python
 
 
 
